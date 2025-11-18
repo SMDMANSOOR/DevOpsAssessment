@@ -1,0 +1,10 @@
+# Flux install manifest (placeholder)
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: ecommerce-repo
+spec:
+  interval: 1m
+  url: https://github.com/yourorg/azure-ecommerce-architecture
+  ref:
+    branch: main
